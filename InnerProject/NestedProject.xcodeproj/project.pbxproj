@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		447CEDCA1946438000AE751D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 447CEDC91946438000AE751D /* Foundation.framework */; };
+		447CEDCD1946438000AE751D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 447CEDCC1946438000AE751D /* main.m */; };
+		447CEDDD1946439800AE751D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 447CEDDC1946439800AE751D /* XCTest.framework */; };
+		447CEDE51946439800AE751D /* NestedProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 447CEDE41946439800AE751D /* NestedProjectTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		447CEDE71946439800AE751D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 447CEDBE1946438000AE751D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 447CEDC51946438000AE751D;
+			remoteInfo = NestedProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		447CEDC61946438000AE751D /* NestedProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NestedProject; sourceTree = BUILT_PRODUCTS_DIR; };
+		447CEDC91946438000AE751D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		447CEDCC1946438000AE751D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		447CEDCF1946438000AE751D /* NestedProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NestedProject-Prefix.pch"; sourceTree = "<group>"; };
+		447CEDDB1946439800AE751D /* NestedProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NestedProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		447CEDDC1946439800AE751D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		447CEDE41946439800AE751D /* NestedProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NestedProjectTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		447CEDC31946438000AE751D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				447CEDCA1946438000AE751D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		447CEDD81946439800AE751D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				447CEDDD1946439800AE751D /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		447CEDBD1946438000AE751D = {
+			isa = PBXGroup;
+			children = (
+				447CEDCB1946438000AE751D /* NestedProject */,
+				447CEDDE1946439800AE751D /* NestedProjectTests */,
+				447CEDC81946438000AE751D /* Frameworks */,
+				447CEDC71946438000AE751D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		447CEDC71946438000AE751D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				447CEDC61946438000AE751D /* NestedProject */,
+				447CEDDB1946439800AE751D /* NestedProjectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		447CEDC81946438000AE751D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				447CEDC91946438000AE751D /* Foundation.framework */,
+				447CEDDC1946439800AE751D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		447CEDCB1946438000AE751D /* NestedProject */ = {
+			isa = PBXGroup;
+			children = (
+				447CEDCC1946438000AE751D /* main.m */,
+				447CEDCE1946438000AE751D /* Supporting Files */,
+			);
+			path = NestedProject;
+			sourceTree = "<group>";
+		};
+		447CEDCE1946438000AE751D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				447CEDCF1946438000AE751D /* NestedProject-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		447CEDDE1946439800AE751D /* NestedProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				447CEDE41946439800AE751D /* NestedProjectTests.m */,
+			);
+			path = NestedProjectTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		447CEDC51946438000AE751D /* NestedProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 447CEDD41946438000AE751D /* Build configuration list for PBXNativeTarget "NestedProject" */;
+			buildPhases = (
+				447CEDC21946438000AE751D /* Sources */,
+				447CEDC31946438000AE751D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NestedProject;
+			productName = NestedProject;
+			productReference = 447CEDC61946438000AE751D /* NestedProject */;
+			productType = "com.apple.product-type.tool";
+		};
+		447CEDDA1946439800AE751D /* NestedProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 447CEDE91946439800AE751D /* Build configuration list for PBXNativeTarget "NestedProjectTests" */;
+			buildPhases = (
+				447CEDD71946439800AE751D /* Sources */,
+				447CEDD81946439800AE751D /* Frameworks */,
+				447CEDD91946439800AE751D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				447CEDE81946439800AE751D /* PBXTargetDependency */,
+			);
+			name = NestedProjectTests;
+			productName = NestedProjectTests;
+			productReference = 447CEDDB1946439800AE751D /* NestedProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		447CEDBE1946438000AE751D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Rich H";
+				TargetAttributes = {
+					447CEDDA1946439800AE751D = {
+						TestTargetID = 447CEDC51946438000AE751D;
+					};
+				};
+			};
+			buildConfigurationList = 447CEDC11946438000AE751D /* Build configuration list for PBXProject "NestedProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 447CEDBD1946438000AE751D;
+			productRefGroup = 447CEDC71946438000AE751D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				447CEDC51946438000AE751D /* NestedProject */,
+				447CEDDA1946439800AE751D /* NestedProjectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		447CEDD91946439800AE751D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		447CEDC21946438000AE751D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				447CEDCD1946438000AE751D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		447CEDD71946439800AE751D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				447CEDE51946439800AE751D /* NestedProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		447CEDE81946439800AE751D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 447CEDC51946438000AE751D /* NestedProject */;
+			targetProxy = 447CEDE71946439800AE751D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		447CEDD21946438000AE751D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		447CEDD31946438000AE751D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		447CEDD51946438000AE751D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NestedProject/NestedProject-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		447CEDD61946438000AE751D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NestedProject/NestedProject-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		447CEDEA1946439800AE751D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		447CEDEB1946439800AE751D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		447CEDC11946438000AE751D /* Build configuration list for PBXProject "NestedProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				447CEDD21946438000AE751D /* Debug */,
+				447CEDD31946438000AE751D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		447CEDD41946438000AE751D /* Build configuration list for PBXNativeTarget "NestedProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				447CEDD51946438000AE751D /* Debug */,
+				447CEDD61946438000AE751D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		447CEDE91946439800AE751D /* Build configuration list for PBXNativeTarget "NestedProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				447CEDEA1946439800AE751D /* Debug */,
+				447CEDEB1946439800AE751D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 447CEDBE1946438000AE751D /* Project object */;
+}

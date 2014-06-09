@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		447CEDB0194642F800AE751D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 447CEDAF194642F800AE751D /* Foundation.framework */; };
+		447CEDB3194642F800AE751D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 447CEDB2194642F800AE751D /* main.m */; };
+		447CEDF21946445900AE751D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 447CEDF11946445900AE751D /* XCTest.framework */; };
+		447CEDFA1946445900AE751D /* NestedProjectTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 447CEDF91946445900AE751D /* NestedProjectTestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		447CEDFC1946445900AE751D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 447CEDA4194642F800AE751D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 447CEDAB194642F800AE751D;
+			remoteInfo = NestedProjectTest;
+		};
+		447CEE07194644E200AE751D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 447CEE02194644E200AE751D /* NestedProject.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 447CEDC61946438000AE751D;
+			remoteInfo = NestedProject;
+		};
+		447CEE09194644E200AE751D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 447CEE02194644E200AE751D /* NestedProject.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 447CEDDB1946439800AE751D;
+			remoteInfo = NestedProjectTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		447CEDAC194642F800AE751D /* NestedProjectTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NestedProjectTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		447CEDAF194642F800AE751D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		447CEDB2194642F800AE751D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		447CEDB5194642F800AE751D /* NestedProjectTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NestedProjectTest-Prefix.pch"; sourceTree = "<group>"; };
+		447CEDF01946445900AE751D /* NestedProjectTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NestedProjectTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		447CEDF11946445900AE751D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		447CEDF91946445900AE751D /* NestedProjectTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NestedProjectTestTests.m; sourceTree = "<group>"; };
+		447CEE02194644E200AE751D /* NestedProject.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = NestedProject.xcodeproj; sourceTree = "<group>"; };
+		447CEE0B1946453E00AE751D /* xctool_script.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = xctool_script.sh; sourceTree = "<group>"; };
+		447CEE0C1946454400AE751D /* xcodebuild_script.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = xcodebuild_script.sh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		447CEDA9194642F800AE751D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				447CEDB0194642F800AE751D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		447CEDED1946445900AE751D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				447CEDF21946445900AE751D /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		447CEDA3194642F800AE751D = {
+			isa = PBXGroup;
+			children = (
+				447CEE0B1946453E00AE751D /* xctool_script.sh */,
+				447CEE0C1946454400AE751D /* xcodebuild_script.sh */,
+				447CEE01194644C900AE751D /* InnerProject */,
+				447CEDB1194642F800AE751D /* NestedProjectTest */,
+				447CEDF31946445900AE751D /* NestedProjectTestTests */,
+				447CEDAE194642F800AE751D /* Frameworks */,
+				447CEDAD194642F800AE751D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		447CEDAD194642F800AE751D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				447CEDAC194642F800AE751D /* NestedProjectTest */,
+				447CEDF01946445900AE751D /* NestedProjectTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		447CEDAE194642F800AE751D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				447CEDAF194642F800AE751D /* Foundation.framework */,
+				447CEDF11946445900AE751D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		447CEDB1194642F800AE751D /* NestedProjectTest */ = {
+			isa = PBXGroup;
+			children = (
+				447CEDB2194642F800AE751D /* main.m */,
+				447CEDB4194642F800AE751D /* Supporting Files */,
+			);
+			path = NestedProjectTest;
+			sourceTree = "<group>";
+		};
+		447CEDB4194642F800AE751D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				447CEDB5194642F800AE751D /* NestedProjectTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		447CEDF31946445900AE751D /* NestedProjectTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				447CEDF91946445900AE751D /* NestedProjectTestTests.m */,
+			);
+			path = NestedProjectTestTests;
+			sourceTree = "<group>";
+		};
+		447CEE01194644C900AE751D /* InnerProject */ = {
+			isa = PBXGroup;
+			children = (
+				447CEE02194644E200AE751D /* NestedProject.xcodeproj */,
+			);
+			path = InnerProject;
+			sourceTree = "<group>";
+		};
+		447CEE03194644E200AE751D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				447CEE08194644E200AE751D /* NestedProject */,
+				447CEE0A194644E200AE751D /* NestedProjectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		447CEDAB194642F800AE751D /* NestedProjectTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 447CEDBA194642F800AE751D /* Build configuration list for PBXNativeTarget "NestedProjectTest" */;
+			buildPhases = (
+				447CEDA8194642F800AE751D /* Sources */,
+				447CEDA9194642F800AE751D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NestedProjectTest;
+			productName = NestedProjectTest;
+			productReference = 447CEDAC194642F800AE751D /* NestedProjectTest */;
+			productType = "com.apple.product-type.tool";
+		};
+		447CEDEF1946445900AE751D /* NestedProjectTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 447CEDFE1946445900AE751D /* Build configuration list for PBXNativeTarget "NestedProjectTestTests" */;
+			buildPhases = (
+				447CEDEC1946445900AE751D /* Sources */,
+				447CEDED1946445900AE751D /* Frameworks */,
+				447CEDEE1946445900AE751D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				447CEDFD1946445900AE751D /* PBXTargetDependency */,
+			);
+			name = NestedProjectTestTests;
+			productName = NestedProjectTestTests;
+			productReference = 447CEDF01946445900AE751D /* NestedProjectTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		447CEDA4194642F800AE751D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Rich H";
+				TargetAttributes = {
+					447CEDEF1946445900AE751D = {
+						TestTargetID = 447CEDAB194642F800AE751D;
+					};
+				};
+			};
+			buildConfigurationList = 447CEDA7194642F800AE751D /* Build configuration list for PBXProject "NestedProjectTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 447CEDA3194642F800AE751D;
+			productRefGroup = 447CEDAD194642F800AE751D /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 447CEE03194644E200AE751D /* Products */;
+					ProjectRef = 447CEE02194644E200AE751D /* NestedProject.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				447CEDAB194642F800AE751D /* NestedProjectTest */,
+				447CEDEF1946445900AE751D /* NestedProjectTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		447CEE08194644E200AE751D /* NestedProject */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = NestedProject;
+			remoteRef = 447CEE07194644E200AE751D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		447CEE0A194644E200AE751D /* NestedProjectTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = NestedProjectTests.xctest;
+			remoteRef = 447CEE09194644E200AE751D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		447CEDEE1946445900AE751D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		447CEDA8194642F800AE751D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				447CEDB3194642F800AE751D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		447CEDEC1946445900AE751D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				447CEDFA1946445900AE751D /* NestedProjectTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		447CEDFD1946445900AE751D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 447CEDAB194642F800AE751D /* NestedProjectTest */;
+			targetProxy = 447CEDFC1946445900AE751D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		447CEDB8194642F800AE751D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		447CEDB9194642F800AE751D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		447CEDBB194642F800AE751D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NestedProjectTest/NestedProjectTest-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		447CEDBC194642F800AE751D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NestedProjectTest/NestedProjectTest-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		447CEDFF1946445900AE751D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		447CEE001946445900AE751D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		447CEDA7194642F800AE751D /* Build configuration list for PBXProject "NestedProjectTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				447CEDB8194642F800AE751D /* Debug */,
+				447CEDB9194642F800AE751D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		447CEDBA194642F800AE751D /* Build configuration list for PBXNativeTarget "NestedProjectTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				447CEDBB194642F800AE751D /* Debug */,
+				447CEDBC194642F800AE751D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		447CEDFE1946445900AE751D /* Build configuration list for PBXNativeTarget "NestedProjectTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				447CEDFF1946445900AE751D /* Debug */,
+				447CEE001946445900AE751D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 447CEDA4194642F800AE751D /* Project object */;
+}
