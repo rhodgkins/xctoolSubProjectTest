@@ -18,17 +18,17 @@ xcodebuild -workspace "$WORKSPACE" -list
 ##############
 
 # Build outer project
-xcodebuild -workspace "$WORKSPACE" -scheme OuterProject clean test
+xcodebuild -workspace "$WORKSPACE" -scheme OuterProject clean build
 
 # Build inner project
-xcodebuild -workspace "$WORKSPACE" -scheme InnerProject clean test
+xcodebuild -workspace "$WORKSPACE" -scheme InnerProject clean build
 
 ##############
 ### XCTOOL ###
 ##############
 
 # Build outer project
-xctool -workspace "$WORKSPACE" -scheme OuterProject clean test
+xctool -workspace "$WORKSPACE" -scheme OuterProject clean build
 
 # Build inner project
-xctool -workspace "$WORKSPACE" -scheme InnerProject clean test
+xctool -workspace "$WORKSPACE" -scheme InnerProject clean build
