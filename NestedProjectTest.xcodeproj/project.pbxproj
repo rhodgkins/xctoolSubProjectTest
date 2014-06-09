@@ -46,8 +46,7 @@
 		447CEDF11946445900AE751D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		447CEDF91946445900AE751D /* NestedProjectTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NestedProjectTestTests.m; sourceTree = "<group>"; };
 		447CEE02194644E200AE751D /* NestedProject.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = NestedProject.xcodeproj; sourceTree = "<group>"; };
-		447CEE0B1946453E00AE751D /* xctool_script.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = xctool_script.sh; sourceTree = "<group>"; };
-		447CEE0C1946454400AE751D /* xcodebuild_script.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = xcodebuild_script.sh; sourceTree = "<group>"; };
+		447CEE0B1946453E00AE751D /* build_script.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build_script.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +72,7 @@
 		447CEDA3194642F800AE751D = {
 			isa = PBXGroup;
 			children = (
-				447CEE0B1946453E00AE751D /* xctool_script.sh */,
-				447CEE0C1946454400AE751D /* xcodebuild_script.sh */,
+				447CEE0B1946453E00AE751D /* build_script.sh */,
 				447CEE01194644C900AE751D /* InnerProject */,
 				447CEDB1194642F800AE751D /* NestedProjectTest */,
 				447CEDF31946445900AE751D /* NestedProjectTestTests */,

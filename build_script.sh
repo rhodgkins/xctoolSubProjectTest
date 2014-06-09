@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/sh -e
 
 #  xctool_script.sh
 #  NestedProjectTest
@@ -12,6 +12,20 @@ WORKSPACE='NestedProjectTest.xcworkspace'
 
 # List the available schemes
 xcodebuild -workspace "$WORKSPACE" -list
+
+##############
+# XCODEBUILD #
+##############
+
+# Build outer project
+xcodebuild -workspace "$WORKSPACE" -scheme OuterProject clean test
+
+# Build inner project
+xcodebuild -workspace "$WORKSPACE" -scheme InnerProject clean test
+
+##############
+### XCTOOL ###
+##############
 
 # Build outer project
 xctool -workspace "$WORKSPACE" -scheme OuterProject clean test
